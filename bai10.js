@@ -15,16 +15,16 @@
 
 //ví dụ
 
-var x = 10;
+let x = 10;
 if (x) {
     console.log("Giá trị của x là truthy.");
 } else {
     console.log("Giá trị của x là falsy.");
 }
 // Sử dụng truthy/falsy trong biểu thức logic
-var y = '';
+let y = '';
 
-var result = x || 'Giá trị y là falsy';
+let result = x || 'Giá trị y là falsy';
 console.log(result); // In ra 10, vì x là truthy
-var result2 = y || 'Giá trị y là falsy';
+let result2 = y || 'Giá trị y là falsy';
 console.log(result2); // In ra 'Giá trị y là falsy', vì y là falsy

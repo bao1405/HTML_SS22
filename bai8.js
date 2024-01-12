@@ -1,7 +1,7 @@
 let a = +prompt('số thứ nhất')
 let b = +prompt('số thứ hai')
 if (!isNaN(a)&&!isNaN(b)) {
-    var phep = prompt('phép toán bạn muốn:')
+    let phep = prompt('phép toán bạn muốn:')
     switch(phep){
         case  '+' :
             console.log(a+b);
