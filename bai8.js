@@ -1,7 +1,7 @@
-let a = +prompt('số thứ nhất')
-let b = +prompt('số thứ hai')
+let a = +prompt('số thứ nhất');
+let b = +prompt('số thứ hai');
 if (!isNaN(a)&&!isNaN(b)) {
-    let phep = prompt('phép toán bạn muốn:')
+    let phep = prompt('phép toán bạn muốn:');
     switch(phep){
         case  '+' :
             console.log(a+b);
@@ -19,5 +19,5 @@ if (!isNaN(a)&&!isNaN(b)) {
             console.log('nhập các phép + - * /');
         }
 }else{
-    console.log('không hợp lệ.vui lòng nhập lại phép toán.')
+    console.log('không hợp lệ.vui lòng nhập lại phép toán.');
 }
